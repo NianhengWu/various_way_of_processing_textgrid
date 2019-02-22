@@ -1,3 +1,7 @@
+"""
+Author: Nianheng Wu
+xjtuwunianheng@gmail.com, Eberhard Karls Universität Tübingen
+"""
 import os
 import regex
 import shutil

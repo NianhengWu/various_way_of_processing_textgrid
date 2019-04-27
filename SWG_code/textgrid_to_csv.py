@@ -121,9 +121,9 @@ class Transform:
                 for each_value in maps[key]:
                     swg = each_value[0]
                     std = each_value[1]
-                    swg = swg.replace("^", "")
+                    swg = swg.replace("^", "") # get rid of the anchors
                     swg = swg.replace("$", "")
-                    swg = swg.replace(".?", "")
+                    swg = swg.replace(".?", "") # any sequence of characters (suffix)
 
                     std = std.replace("^", "")
                     std = std.replace("$", "")
